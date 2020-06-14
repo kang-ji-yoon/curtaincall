@@ -1,0 +1,59 @@
+.logo{
+position: absolute;
+top: 50%;
+left: 50%;
+margin: -100px 0 0 -180px;
+animation-name: upper;
+animation-duration: 3s;    
+animation-fill-mode: forwards;
+    
+}
+
+@keyframes upper {
+0% {transform: translate(0px,0px);}
+50% {transform: translate(0px,0px);}
+100% {transform: translate(0px,-70px);}
+}
+
+.part1 {
+max-width: 370px;
+height: 370px;
+object-fit: contain;
+position: absolute;
+}
+
+.part2{
+max-width: 370px;
+height: 370px;
+object-fit: contain;
+position:absolute;
+left: 0.5%;
+animation-name: part2;
+animation-duration: 2s;
+transition-timing-function: ease-in-out;
+}
+
+/* Standard syntax */
+@keyframes part2 {
+0%   {transform: rotate(0deg);}
+50%  {transform: rotate(390deg);}
+100% {transform: rotate(360deg);}
+}
+
+.title {
+position: absolute;
+top: 80%;
+left: 39%;
+margin: -150px 50 50 -100px;
+animation-name: changecolor;
+transition-delay: 3s;
+animation-duration: 6s;
+transition-timing-function: ease-in;
+}
+
+@keyframes changecolor {
+	0% { opacity: 0;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+	
+}

@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "AppleSDGothicNeoB00";
+    src: url(fonts/AppleSDGothicNeoB.ttf);
+    font-family: "AppleSDGothicNeoEB00";
+    src: url(fonts/AppleSDGothicNeoEB.ttf);
+    font-family: "AppleSDGothicNeoH00";
+    src: url(fonts/AppleSDGothicNeoH.ttf);
+    font-family: "AppleSDGothicNeoL00";
+    src: url(fonts/AppleSDGothicNeoL.ttf);
+    font-family: "AppleSDGothicNeoM00";
+    src: url(fonts/AppleSDGothicNeoM.ttf);
+    font-family: "AppleSDGothicNeoR00";
+    src: url(fonts/AppleSDGothicNeoR.ttf);
+    font-family: "AppleSDGothicNeoSB00";
+    src: url(fonts/AppleSDGothicNeoSB.ttf);
+    font-family: "AppleSDGothicNeoT00";
+    src: url(fonts/AppleSDGothicNeoT.ttf);
+    font-family: "AppleSDGothicNeoT00";
+    src: url(fonts/AppleSDGothicNeoUL.ttf);
+}
+
+
+html,body {
+    padding:0;
+    margin: 0;
+    width: 100%;
+    height:100%;
+    background-color:black;
+}
+.wrap1 {
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.wrap2{
+    position:relative;
+    top:18.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:63.4%;
+    width:100%;
+    background-color:black;
+}
+img{
+    height:4%;
+    width:auto;
+}
+form{
+    background-color:black;
+}
+.id {
+    position:absolute;
+    padding: 1.64% 0;
+    border: none;
+    border-bottom: 2px solid white;
+    display: block;
+    font-size: 20px;
+    background-color:black;
+    font-family: "AppleSDGothicNeoT00";
+    top: 16%;
+    color:white;
+}
+
+.pswd {
+    position:absolute;
+    color:white;
+    padding: 1.64% 0;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    font-family: "AppleSDGothicNeoT00";
+    top: 31.68%;
+}
+
+.wrap2 > form,input {
+    background: black;
+    width:71.7%;
+}
+
+.button {
+    border-radius: 28px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 1px #fbb03b;
+    color:#fbb03b;
+    font-family: "AppleSDGothicNeoEB00";
+    font-size:22px;
+    height:9.04%;
+    margin:0 auto;
+}
+.button:hover{
+    background-color:#fbb03b;
+    color:black;
+    cursor:pointer;
+}
+.bt1{
+    position:absolute;
+    top:56.22%;
+}
+.bt2{
+    position:absolute;
+    top:73.41%;
+}
+form{display:flex;justify-content: center;}
+@media (min-width:768px){
+    img{
+        height:6%;
+    }
+    .wrap2{
+        height:75%;
+        top:15%;
+    }
+    .wrap2>input{
+        width:60%;
+    }
+    form>input{width:60%;}
+}
+@media (min-width:1440px){
+    img{
+        height:8%;
+    }
+    .wrap2{
+        height:80%;
+        top:10%;
+    }
+    .id,.pswd{
+        font-size:30px;
+    }
+    .button{
+        font-size:30px;
+    }
+    .wrap2>input{
+        width:50%;
+    }
+    form>input{width:50%;}
+}

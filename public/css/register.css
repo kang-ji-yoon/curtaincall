@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "AppleSDGothicNeoB00";
+    src: url(/AppleSDGothicNeoB.ttf);
+    font-family: "AppleSDGothicNeoEB00";
+    src: url(/AppleSDGothicNeoEB.ttf);
+    font-family: "AppleSDGothicNeoH00";
+    src: url(/AppleSDGothicNeoH.ttf);
+    font-family: "AppleSDGothicNeoL00";
+    src: url(/AppleSDGothicNeoL.ttf);
+    font-family: "AppleSDGothicNeoM00";
+    src: url(/AppleSDGothicNeoM.ttf);
+    font-family: "AppleSDGothicNeoR00";
+    src: url(/AppleSDGothicNeoR.ttf);
+    font-family: "AppleSDGothicNeoSB00";
+    src: url(/AppleSDGothicNeoSB.ttf);
+    font-family: "AppleSDGothicNeoT00";
+    src: url(/AppleSDGothicNeoT.ttf);
+    font-family: "AppleSDGothicNeoT00";
+    src: url(/AppleSDGothicNeoUL.ttf);
+}
+
+
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display:block;
+    position: relative;
+    width: 400px;
+    height: 760px;
+}
+
+.content > * {
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+}
+
+.wrap img {
+    position: relative;
+    width: 387px;
+    margin-bottom: 42px;
+}
+
+li {
+    margin-bottom: 15.6px;
+    height: 49px;
+    position:relative;
+}
+hr{
+    margin-top:-15px;
+}
+
+.justify {
+    position:relative;
+    font-family: "AppleSDGothicNeoH00";
+    font-size: 20px;
+    color: #fbb03b;
+    width: 88px;
+    display:inline-block;
+    text-align: center;
+}
+.id,.pswd,.age{
+    font-family: "AppleSDGothicNeoUL00";
+  font-size: 20px;
+    background-color:#222222;
+    letter-spacing:3.3px;
+    width:300px;
+    border:none;
+}
+.boy,.girl{
+    border-radius: 15px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.36);
+  border: solid 1px #fbb03b;
+     font-family: AppleSDGothicNeoEB00;
+  font-size: 14px;
+    color: #fbb03b;
+    line-height: 1.43;
+    width:110px;
+    top:30px;
+    margin-left:20px;
+    background-color:#222222;
+}
+.like{
+    font-family: AppleSDGothicNeoH00;
+  font-size: 20px;
+    color: #fbb03b;
+    text-align: center;
+}
+.s{
+    border-radius: 15px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.36);
+  border: solid 1px #fbb03b;
+    background-color:#222222;
+    color:#fbb03b;
+    font-family: "AppleSDGothicNeoEB00";
+    height:30px;
+    margin:0 auto;
+}
+.n{
+    width:152.3px;
+}
+.o{
+    width:110px;
+}
+.hu{
+    display:flex;
+}
+.register{
+    
+  border-radius: 28px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #fbb03b;
+    color:#fbb03b;
+    font-family: "AppleSDGothicNeoEB00";
+  font-size: 22px;
+    background-color:#222222;
+    
+    width: 387px;
+  height: 55px;
+  position:absolute;
+  bottom:-50px;
+}

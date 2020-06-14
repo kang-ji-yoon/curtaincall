@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <title>Firebase RealTime</title>
+    <head>
+    </head>
+    <body>
+        <p>Getting started With Firebase</p>
+        <h1 id="bigOne"></h1>
+
+        <!--Value-->
+      
+        <!--Child-->
+        <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+    
+        <script>
+            (function() {
+                const config = {
+                apiKey: "AIzaSyCnlYZriBIkwMml7ic33dh-EQ2GH7X9z_Q",
+                authDomain: "curtaincall-62a7f.firebaseapp.com",
+                databaseURL: "https://curtaincall-62a7f.firebaseio.com",
+                storageBucket: "curtaincall-62a7f.appspot.com"                  
+                };
+                firebase.initializeApp(config);
+
+                //get elements
+                var bigOne = document.getElementById('bigOne');
+                var dbRef = firebase.database().ref().child('search').child('signal');
+                dbRef.on('value',snap => {
+                    console.log(snap.val());
+
+                    if(snap.val() === 0) {
+                        console.log('fuck');
+                    
+                    } else {
+                        
+                        var form = document.createElement("form");      // form 엘리멘트 생성
+                    form.setAttribute("method","post");             // method 속성 설정
+                    form.setAttribute("action","/ad");       // action 속성 설정
+                    document.body.appendChild(form);                // 현재 페이지에 form 엘리멘트 추가
+
+                    var insert = document.createElement("input");   // input 엘리멘트 생성
+                    insert.setAttribute("name","id");               // name 속성을 'stadium'으로 설정
+                    insert.setAttribute("value",snap.val());             // value 속성을 삽입
+                    form.appendChild(insert);                       // form 엘리멘트에 input 엘리멘트 추가
+                
+                    form.submit();
+                    }
+                    
+
+                });
+
+                
+            }());            
+        </script>
+    </body>
+</html>

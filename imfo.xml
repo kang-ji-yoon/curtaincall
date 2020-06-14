@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbs>
+    <db>
+        <mt20id>PF147740</mt20id>
+        <prfnm>옥탑방 고양이 [광주]</prfnm>
+        <prfpdfrom>2019.05.09</prfpdfrom>
+        <prfpdto>2019.06.09</prfpdto>
+        <fcltynm>기분좋은극장 [상무지구]</fcltynm>
+        <poster>http://www.kopis.or.kr/upload/pfmPoster/PF_PF147740_190417_100232.jpg</poster>
+        <genrenm>연극</genrenm>
+        <prfstate>공연중</prfstate>
+        <openrun>N</openrun>
+    </db>
+    <db>
+        <mt20id>PF145218</mt20id>
+        <prfnm>옥탑방고양이 [대구]</prfnm>
+        <prfpdfrom>2018.11.15</prfpdfrom>
+        <prfpdto>2018.12.31</prfpdto>
+        <fcltynm>송죽씨어터</fcltynm>
+        <poster>http://www.kopis.or.kr/upload/pfmPoster/PF_PF145218_181102_090343.jpg</poster>
+        <genrenm>연극</genrenm>
+        <prfstate>공연완료</prfstate>
+        <openrun>N</openrun>
+    </db>
+    <db>
+        <mt20id>PF142259</mt20id>
+        <prfnm>옥탑방 고양이</prfnm>
+        <prfpdfrom>2018.05.10</prfpdfrom>
+        <prfpdto>2018.05.12</prfpdto>
+        <fcltynm>강동아트센터</fcltynm>
+        <poster>http://www.kopis.or.kr/upload/pfmPoster/PF_PF142259_180402_145833.gif</poster>
+        <genrenm>연극</genrenm>
+        <prfstate>공연완료</prfstate>
+        <openrun>N</openrun>
+    </db>
+    <db>
+        <mt20id>PF142232</mt20id>
+        <prfnm>옥탑방고양이 [대구]</prfnm>
+        <prfpdfrom>2018.04.27</prfpdfrom>
+        <prfpdto>2018.05.27</prfpdto>
+        <fcltynm>송죽씨어터</fcltynm>
+        <poster>http://www.kopis.or.kr/upload/pfmPoster/PF_PF142232_180330_102144.jpg</poster>
+        <genrenm>연극</genrenm>
+        <prfstate>공연완료</prfstate>
+        <openrun>N</openrun>
+    </db>
+    <db>
+        <mt20id>PF137987</mt20id>
+        <prfnm>썸머페스티벌, 옥탑방 고양이 [원주]</prfnm>
+        <prfpdfrom>2017.07.22</prfpdfrom>
+        <prfpdto>2017.07.23</prfpdto>
+        <fcltynm>원주치악예술관</fcltynm>
+        <poster>http://www.kopis.or.kr/upload/pfmPoster/PF_PF137987_170626_130556.gif</poster>
+        <genrenm>연극</genrenm>
+        <prfstate>공연완료</prfstate>
+        <openrun>N</openrun>
+    </db>
+    <db>
+        <mt20id>PF136278</mt20id>
+        <prfnm>옥탑방고양이 [부산]</prfnm>
+        <prfpdfrom>2017.03.23</prfpdfrom>
+        <prfpdto>2017.05.21</prfpdto>
+        <fcltynm>BNK부산은행 조은극장</fcltynm>
+        <poster>http://www.kopis.or.kr/upload/pfmPoster/PF_PF136278_170307_144034.gif</poster>
+        <genrenm>연극</genrenm>
+        <prfstate>공연완료</prfstate>
+        <openrun>N</openrun>
+    </db>
+    <db>
+        <mt20id>PF134723</mt20id>
+        <prfnm>옥탑방 고양이 [대구]</prfnm>
+        <prfpdfrom>2017.01.20</prfpdfrom>
+        <prfpdto>2017.03.19</prfpdto>
+        <fcltynm>송죽씨어터</fcltynm>
+        <poster>http://www.kopis.or.kr/upload/pfmPoster/PF_PF134723_170105_165254.jpg</poster>
+        <genrenm>연극</genrenm>
+        <prfstate>공연완료</prfstate>
+        <openrun>N</openrun>
+    </db>
+    <db>
+        <mt20id>PF134091</mt20id>
+        <prfnm>옥탑방 고양이 [신연아트홀]</prfnm>
+        <prfpdfrom>2016.11.26</prfpdfrom>
+        <prfpdto>2017.01.31</prfpdto>
+        <fcltynm>대학로 A아트홀(구. 신연아트홀)</fcltynm>
+        <poster>http://www.kopis.or.kr/upload/pfmPoster/PF_PF134091_170103_113807.jpg</poster>
+        <genrenm>연극</genrenm>
+        <prfstate>공연완료</prfstate>
+        <openrun>N</openrun>
+    </db>
+    <db>
+        <mt20id>PF128091</mt20id>
+        <prfnm>옥탑방고양이</prfnm>
+        <prfpdfrom>2015.11.03</prfpdfrom>
+        <prfpdto>2015.11.29</prfpdto>
+        <fcltynm>CK아트홀</fcltynm>
+        <poster>http://www.kopis.or.kr/upload/pfmPoster/PF_PF128091_150924_101734.jpg</poster>
+        <genrenm>연극</genrenm>
+        <prfstate>공연완료</prfstate>
+        <openrun>N</openrun>
+    </db>
+    <db>
+        <mt20id>PF127407</mt20id>
+        <prfnm>옥탑방고양이 [대전]</prfnm>
+        <prfpdfrom>2015.09.04</prfpdfrom>
+        <prfpdto>2015.10.21</prfpdto>
+        <fcltynm>대전가톨릭문화회관</fcltynm>
+        <poster>http://www.kopis.or.kr/upload/pfmPoster/PF_PF127407_160908_095428.gif</poster>
+        <genrenm>연극</genrenm>
+        <prfstate>공연완료</prfstate>
+        <openrun>N</openrun>
+    </db>
+</dbs>

@@ -1,0 +1,136 @@
+<html>
+
+<head>
+    <title>CurtainCall</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/public/css/register.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="content">
+            
+            <img src="/public/images/LOGO_TextLine.png">
+            <ul>
+                <form method="post" action="/login">
+                <li>
+                    <p class="justify">아이디</p>
+                    <input class="id" type="text" name="id" placeholder="아이디를 입력해 주세요.">
+                    <hr>
+                </li>
+                <li>
+                    <p class="justify">비밀번호</p>
+                    <input class="pswd" type="password" name="password" placeholder="비밀번호를 입력해 주세요.">
+                    <hr>
+                </li>
+                <li>
+                    <p class="justify">나이</p>
+                    <input class="age" type="text" name="age" placeholder="나이를 입력해 주세요.">
+                    <hr>
+                </li>
+                <input class="register" type="submit" value="REGISTER">
+                </form>
+                <li>
+                    <p class="justify">성별</p>
+                    <input class="boy" type="submit" value="남성" id="s11" onclick="yeah11();">
+                    <input class="girl" id="s12" type="submit" value="여성" onclick="yeah12();">
+                    <hr>
+                </li>
+                <li>
+                    <p class="like">선호장르 </p>
+                </li>
+                <li class="hu">
+                    <input id="s1" onclick="yeah1();" class="thrill n s" type="submit" value="스릴러">
+                    <input id="s2" onclick="yeah2();" class="romance n s" type="submit" value="로맨스">
+                </li>
+                <li class="hu">
+                    <input id="s3" onclick="yeah3();" class="touched o s" type="submit" value="감동">
+                    <input id="s4" onclick="yeah4();" class="musical n s" type="submit" value="뮤지컬">
+                    <input id="s5" onclick="yeah5();" class="show o s" type="submit" value="연극">
+                </li>
+                <li class="hu">
+                    <input id="s6" onclick="yeah6();" class="classic n s" type="submit" value="클래식">
+                    <input id="s7" onclick="yeah7();" class="dance o s" type="submit" value="무용">
+                    <input id="s8" onclick="yeah8();" class="korea o s" type="submit" value="국악">
+                </li>
+                <li class="hu">
+                    <input id="s9" onclick="yeah9();" class="mixed o s" type="submit" value="복합">
+                    <input id="s10" onclick="yeah10();" class="opera n s" type="submit" value="오페라">
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="/public/js/jquery.min.js"></script>
+    <script>
+        function yeah1() {
+            var box=document.getElementById("s1");
+            box.style.backgroundColor="#fbb03b";
+            box.style.color="white"; 
+            }
+        function yeah2() {
+            var box=document.getElementById("s2");
+            box.style.backgroundColor="#fbb03b";
+            box.style.color="white"; 
+            }
+        function yeah3() {
+            var box=document.getElementById("s3");
+            box.style.backgroundColor="#fbb03b";
+            box.style.color="white"; 
+            }
+        function yeah4() {
+            var box=document.getElementById("s4");
+            box.style.backgroundColor="#fbb03b";
+            box.style.color="white"; 
+            }
+        function yeah5() {
+            var box=document.getElementById("s5");
+            box.style.backgroundColor="#fbb03b";
+            box.style.color="white"; 
+            }
+        function yeah6() {
+            var box=document.getElementById("s6");
+            box.style.backgroundColor="#fbb03b";
+            box.style.color="white"; 
+            }
+        function yeah7() {
+            var box=document.getElementById("s7");
+            box.style.backgroundColor="#fbb03b";
+            box.style.color="white"; 
+            }
+        function yeah7() {
+            var box=document.getElementById("s7");
+            box.style.backgroundColor="#fbb03b";
+            box.style.color="white"; 
+            }
+        function yeah8() {
+            var box=document.getElementById("s8");
+            box.style.backgroundColor="#fbb03b";
+            box.style.color="white"; 
+            }
+        function yeah9() {
+            var box=document.getElementById("s9");
+            box.style.backgroundColor="#fbb03b";
+            box.style.color="white"; 
+            }
+        function yeah10() {
+            var box=document.getElementById("s10");
+            box.style.backgroundColor="#fbb03b";
+            box.style.color="white"; 
+            }
+        function yeah11() {
+            var box=document.getElementById("s11");
+            box.style.backgroundColor="#fbb03b";
+            box.style.color="white"; 
+            }
+        function yeah12() {
+            var box=document.getElementById("s12");
+            box.style.backgroundColor="#fbb03b";
+            box.style.color="white"; 
+            }
+        
+    </script>
+</body>
+
+</html>

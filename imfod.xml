@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbs>
+    <db>
+        <mt20id>PF147740</mt20id>
+        <prfnm>옥탑방 고양이 [광주]</prfnm>
+        <prfpdfrom>2019.05.09</prfpdfrom>
+        <prfpdto>2019.06.09</prfpdto>
+        <fcltynm>기분좋은극장 [상무지구] (기분좋은극장 [상무지구])</fcltynm>
+        <prfcast>김태환, 차수경, 설은아, 노수연, 한승렬, 김건하, 김세정 등</prfcast>
+        <prfcrew> </prfcrew>
+        <prfruntime>1시간 40분</prfruntime>
+        <prfage>만 13세 이상</prfage>
+        <entrpsnm>극단 논다</entrpsnm>
+        <pcseguidance>전석 35,000원</pcseguidance>
+        <poster>http://www.kopis.or.kr/upload/pfmPoster/PF_PF147740_190417_100232.jpg</poster>
+        <sty> </sty>
+        <genrenm>연극</genrenm>
+        <prfstate>공연중</prfstate>
+        <openrun>N</openrun>
+        <styurls>
+            <styurl>http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF147740_190417_1002320.jpg</styurl>
+        </styurls>
+        <mt10id>FC001234</mt10id>
+        <dtguidance>화요일 ~ 금요일(20:00), 토요일(15:00,18:00), 일요일 ~ HOL(16:00)</dtguidance>
+    </db>
+</dbs>
